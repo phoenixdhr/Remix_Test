@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "authenticate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Casos de Uso/IdentidadDigital.sol": "Name"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Casos de Uso/IdentidadDigital.sol": {
+			"keccak256": "0x9a88788290bc94341301071a97de9eb8eaa2fbb0c8a7d71b6e2d9dde0bdcbdae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fde861bc9013e4f42b628b32d9c5d006927845ad169257386e64ea99ed648041",
+				"dweb:/ipfs/QmcC9DGHQhzRDDURLLz4fsL5WLpgwHtpYYjiGFGrWCoCRN"
+			]
+		}
+	},
+	"version": 1
+}
