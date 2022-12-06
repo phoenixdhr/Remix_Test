@@ -5,18 +5,20 @@ contract TokenTITAN {
 
     string public name;
     string public simbolo;
-    uint   decimals;
-    uint   totalSupply;
+    uint public   totalSupply;
 
     mapping (address=>uint) balance;
     mapping (address=>mapping (address=>uint)) allowed;
 
     constructor(uint _totalSupply) {
-        name="Titan";
+        name="Titan200";
         simbolo="TTN";
-        decimals=18;
         totalSupply=_totalSupply;
         balance[msg.sender]=_totalSupply;
+    }
+
+    function decimals() public pure returns (uint8) {
+        return 2;
     }
 
     function getTotalSupply() public view returns (uint)  {

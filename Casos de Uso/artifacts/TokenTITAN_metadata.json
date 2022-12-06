@@ -160,6 +160,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getTotalSupply",
 				"outputs": [
 					{
@@ -192,6 +205,19 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -279,11 +305,11 @@
 	},
 	"sources": {
 		"Casos de Uso/TokenTITAN.sol": {
-			"keccak256": "0x4bc1fcc1feca8cf16b56e62b37bbaddb1effd2b56fd771eca9907b6e73ce891b",
+			"keccak256": "0xca35e980d645ed16eac152f0e369fc231c1b37b8153e0009f6d74a2ef0b6f7c9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b01e1f5901298767c16b13c9dc325dc538b700f3e0155d37c778be7c93a5f26",
-				"dweb:/ipfs/QmaxgYZA3Eia8Uyyb5XEqGGSVLXfrXRLiBUuCKXtDo8wJ7"
+				"bzz-raw://f959a46a175d93fa73b2b570cb54295a19a898cf68b07f2f325875dba889c9eb",
+				"dweb:/ipfs/QmbzPjx2J9y5z9nmr4Rx3o7kjscNpe4ki8QNQpfPbmpP6N"
 			]
 		}
 	},
