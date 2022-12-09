@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx hardhat run --network localhost ./scripts/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "ethers": "^5.7.2",
     "hardhat": "^2.12.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0"
   }
 }

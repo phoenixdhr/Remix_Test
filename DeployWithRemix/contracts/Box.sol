@@ -1,10 +1,7 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity >=0.8.0;
 
-
-
-
-contract box {
+contract Box {
 
     uint num;
 
@@ -13,10 +10,9 @@ contract box {
     }
 
 
-    function setnum(uint _num) public {
+    function setNum(uint _num) public {
         num=_num;
     }
-
 
 
 }
