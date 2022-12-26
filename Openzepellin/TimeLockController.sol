@@ -14,7 +14,7 @@ contract ControlTiempo is TimelockController, ERC20 {
 
 
     //proposers y executors se deben ingresar con corchetes y las direcciones entre comillas, PE
-    // ["0x5B38Da6a701c568545dCfcB03FcB8    75f56beddC4", "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"]
+    // ["0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"]
     constructor(
         uint256 minDelay,
         address[] memory proposers,
