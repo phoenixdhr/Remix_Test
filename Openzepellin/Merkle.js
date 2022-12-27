@@ -35,4 +35,4 @@ console.log(hexProof)
 
 //"verify" verifica si un hash pertenece al Merkletree generado
 const veri = vmerkleTree.verify(hexProof,claiminingAddress,roothash)
-console.log(`la prueba Merkle para "${claiminingAddress}" es ${veri}`);
+console.log(`la prueba Merkle para "${claiminingAddress.toString('hex')}" es ${veri}`);
