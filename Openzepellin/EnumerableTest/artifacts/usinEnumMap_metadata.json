@@ -1,0 +1,204 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "at_",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "contains_",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "get_",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "length_",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "remove_",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "value",
+						"type": "address"
+					}
+				],
+				"name": "set_",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "tryGet_",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Openzepellin/EnumerableTest/EnumerableMapTest.sol": "usinEnumMap"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/structs/EnumerableMap.sol": {
+			"keccak256": "0x5094b17cb46143943f3206d0738b91a05a7005e979681af7210d534cd3e72f54",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a55fbc9ee8080ec3b397e8e32e5dafcff2c377ce44d553bfc93dfce1be2d5b12",
+				"dweb:/ipfs/QmYSk6bNHnpKRyNWXmEBKbkPxXi7Hco9JZHHyxMdrZGWpb"
+			]
+		},
+		"@openzeppelin/contracts/utils/structs/EnumerableSet.sol": {
+			"keccak256": "0xc3ff3f5c4584e1d9a483ad7ced51ab64523201f4e3d3c65293e4ca8aeb77a961",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7d3dd6067a994690471b5fc71b6f81fac3847798b37d404f74db00b4d3c3d0e",
+				"dweb:/ipfs/QmRHF1RarifjNi93RttouNPkYZGyu6CD926PgRDzD5iL35"
+			]
+		},
+		"Openzepellin/EnumerableTest/EnumerableMapTest.sol": {
+			"keccak256": "0xa928daad89572b74aaf1ef53bef7b807bf492a30bfe1510968e10fccc174d32c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://813e1869c4cadd9bb92f7674948058eb6d67f7f635315fd38f4d3439704be804",
+				"dweb:/ipfs/QmeNmsUG9FQV9ezUxQccFtwKzNSeqKhA5wtGyoYrpvSTmS"
+			]
+		}
+	},
+	"version": 1
+}
