@@ -22,7 +22,6 @@ contract TokenBurnPausable is ERC20, ERC20Burnable, Pausable, Ownable {
     }
 
 
-
     function unpause()  public onlyOwner {
         _unpause();
     }
