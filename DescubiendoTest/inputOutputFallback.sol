@@ -2,6 +2,21 @@
 pragma solidity >0.8.10;
 
 
+
+contract Counter {
+    uint public count;
+
+    function inc() public  returns(uint) {
+        count+=1;
+        return count;
+    }
+    
+    receive() external payable{
+    }
+}
+
+
+
 contract inputOutputFallback {
 
     address immutable addressCounter;
@@ -19,17 +34,6 @@ contract inputOutputFallback {
     }
 }
 
-contract Counter {
-    uint public count;
-
-    function inc() public  returns(uint) {
-        count+=1;
-        return count;
-    }
-    
-    receive() external payable{
-    }
-}
 
 
 
